@@ -1,0 +1,13 @@
+function call(query){
+								$.ajax({
+									type : "POST",
+									url : "/submitValues",
+									data : query,
+									async : true,
+									contentType : "application/json",// //;
+									// charset=utf-8
+
+								});
+					}
+				}, doneTypingInterval);
+				}
